@@ -1,0 +1,14 @@
+.header__content{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  width: 100%;
+  height: 60px;
+}
+
+.header__content img{
+  height: 50px;
+  width: 50px;
+  margin: 4px;
+  border-radius: 50%;
+}

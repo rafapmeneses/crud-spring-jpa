@@ -1,0 +1,36 @@
+.user-details__content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-details__form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: var(--white-1);
+}
+
+.user-details__form label{
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: var(--white-1);
+  padding-left: 8px;
+}
+
+.user-details__form input{
+  min-width: 300px;
+  background: var(--gray-2);
+  height: 35px;
+  border: 0;
+  border-radius: 8px;
+  color: var(--white-1);
+  padding: 0 16px;
+}
+
+.user-details__form > button{
+  margin-top: 16px;
+  align-self: center;
+}
