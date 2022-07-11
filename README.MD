@@ -29,6 +29,10 @@ spring.jpa.show-sql= true
 - Ainda na pasta `./app` utilizar o comando `npm start` para iniciar a aplicação front-end.
 
 ## Rotas (REST)
+- É necessário utilizar o `X-AUTH-TOKEN` no header.
+- O token é retornado no login para acessar as rotas de listar, atualizar e deletar.
+- Arquivo exemplo com o payload dos endpoints está na pasta `api/data`, no arquivo `Crud-JPA.postman_collection.json`
+
 | Rota | Descrição |
 | --- | --- |
 | `GET /listar` | Listar os usuários |
