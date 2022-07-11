@@ -17,12 +17,13 @@
 - No arquivo `application.properties`, este esta configurado para criar o banco.
 - Ainda no arquivo `application.properties`, na sessão de `spring`, configurar o banco.
 
-spring.jpa.hibernate.ddl-auto=update
-spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_topicos
-spring.datasource.username=nome_database
-spring.datasource.password=senha_database
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.jpa.show-sql= true
+### application.properties
+- spring.jpa.hibernate.ddl-auto=update
+- spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_topicos
+- spring.datasource.username=nome_database
+- spring.datasource.password=senha_database
+- spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+- spring.jpa.show-sql= true
 
 ### APP
 - Ao acessar a pasta `./app` utilizar o comando `npm i` para instalar as dependências da aplicação.
